@@ -19,7 +19,7 @@ const Index = () => (
         <ul className={styles.list}>
           <li>
             <Link href="/help">
-            <a target="_blank" >Visit External URL</a>
+            <a  >Visit External URL</a>
           </Link>
           </li>
         </ul>
