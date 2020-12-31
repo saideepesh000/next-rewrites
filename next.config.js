@@ -21,22 +21,9 @@ module.exports = {
       },
       // Rewriting to an external URL
       {
-        source: '/docs/:slug',
-        destination: 'https://youtube.com/',
+        source: '/help',
+        destination: 'https://reactnative.dev/help'
       },
-
-      {
-        source: '/docs',
-        destination: 'https://www.youtube.com'
-      },
-      {
-        source: '/explore/books',
-        destination: 'https://zhiffy.com/explore/books'
-      },
-      {
-        source: '/explore/phones',
-        destination: 'https://www.flipkart.com/'
-      }
     ]
   },
 }

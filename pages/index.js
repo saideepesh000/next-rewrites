@@ -18,27 +18,7 @@ const Index = () => (
       <nav>
         <ul className={styles.list}>
           <li>
-            <Link href="/about" as="/team">
-              <a>Visit /team</a>
-            </Link>
-          </li>
-          <li>
-            <Link href="/about" as="/about-us">
-              <a>Visit /about-us</a>
-            </Link>
-          </li>
-          <li>
-            <Link href="/post/first-post">
-              <a>Visit /post/first-post</a>
-            </Link>
-          </li>
-          <li>
-            <Link href="/blog/2020/first-post">
-              <a>Visit /blog/2020/first-post</a>
-            </Link>
-          </li>
-          <li>
-            <Link href="/explore/phones">
+            <Link href="/help">
             <a target="_blank" >Visit External URL</a>
           </Link>
           </li>
