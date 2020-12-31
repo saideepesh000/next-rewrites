@@ -1,0 +1,42 @@
+module.exports = {
+  async rewrites() {
+    return [
+      {
+        source: '/team',
+        destination: '/about',
+      },
+      {
+        source: '/about-us',
+        destination: '/about',
+      },
+      // Path Matching - will match `/post/a` but not `/post/a/b`
+      {
+        source: '/post/:slug',
+        destination: '/news/:slug',
+      },
+      // Wildcard Path Matching - will match `/blog/a` and `/blog/a/b`
+      {
+        source: '/blog/:slug*',
+        destination: '/news/:slug*',
+      },
+      // Rewriting to an external URL
+      {
+        source: '/docs/:slug',
+        destination: 'https://youtube.com/',
+      },
+
+      {
+        source: '/docs',
+        destination: 'https://www.youtube.com'
+      },
+      {
+        source: '/explore/books',
+        destination: 'https://zhiffy.com/explore/books'
+      },
+      {
+        source: '/explore/phones',
+        destination: 'https://www.flipkart.com/'
+      }
+    ]
+  },
+}
