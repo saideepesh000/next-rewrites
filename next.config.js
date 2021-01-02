@@ -4,7 +4,7 @@ module.exports = {
       // Rewriting to an external URL
       {
         source: '/:path*',
-        destination: 'https://zhiffy.com/:path*',
+        destination: 'https://reactnative.dev/:path*',
       },
     ]
   },
